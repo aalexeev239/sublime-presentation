@@ -1,176 +1,416 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-	<title>Shower Presentation Engine</title>
+	<title>Sublime Presentation</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=792, user-scalable=no">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<link rel="stylesheet" href="node_modules/shower-ribbon/styles/screen.css">
-</head>
-<body class="list">
+	<link rel="stylesheet" href="css/style.min.css"></head>
+	<body class="list">
 	<header class="caption">
-		<h1>Shower Presentation Engine</h1>
-		<p>Yours Truly, Famous Inc.</p>
+		<h1>Готовь Sublime к полету в космос</h1>
+		<p>
+			Полезные инструменты и настройки Sublime Text 3 для верстальщиков
+		</p>
 	</header>
-	<section class="slide cover" id="Cover"><div>
-		<h2>Shower Presentation Engine</h2>
-		<p>Brought to you by <a href="http://pepelsbey.net">Vadim Makeev</a></p>
-		<img src="pictures/cover.jpg" alt="">
-		<!--
-			To apply styles to the certain slides
-			set slide ID to get needed elements
-			-->
-		<style>
-			#Cover h2 {
-				margin:30px 0 0;
-				color:#FFF;
-				text-align:center;
-				font-size:70px;
-				}
-			#Cover p {
-				margin:10px 0 0;
-				text-align:center;
-				color:#FFF;
-				font-style:italic;
-				font-size:20px;
-				}
-				#Cover p a {
-					color:#FFF;
-					}
-		</style>
-	</div></section>
-	<section class="slide"><div>
-		<h2>Shower Key Features</h2>
-		<ol>
-			<li>Built on HTML, CSS and vanilla JavaScript</li>
-			<li>All modern browsers are supported</li>
-			<li>Slide themes are separated from engine</li>
-			<li>Fully keyboard accessible</li>
-			<li>Printable to PDF</li>
-		</ol>
-		<p class="note">Shower ['ʃəuə] noun. A person or thing that shows.</p>
-	</div></section>
-	<section class="slide"><div>
-		<h2>Plain Text on Your Slides</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur <a href="#4">adipisicing</a> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <em>quis nostrud</em> exercitation ullamco laboris <strong>nisi ut aliquip</strong> ex ea commodo consequat. Duis aute irure <i>dolor</i> in reprehenderit in voluptate velit esse cillum <b>dolore</b> eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in <code>&lt;culpa&gt;</code> qui officia deserunt mollit anim id est laborum.</p>
-	</div></section>
-	<section class="slide"><div>
-		<h2>All Kind of Lists</h2>
-		<ol>
-			<li>Simple lists are marked with bullets</li>
-			<li>Ordered lists begin with a number</li>
-			<li>You can even nest lists one inside another
-				<ul>
-					<li>Or mix their types</li>
-					<li>But do not go too far</li>
-					<li>Otherwise audience will be bored</li>
-				</ul>
-			</li>
-			<li>Look, seven rows exactly!</li>
-		</ol>
-	</div></section>
-	<section class="slide"><div>
-		<h2>Serious Citations</h2>
-		<figure>
-			<blockquote>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
-			</blockquote>
-			<figcaption>Marcus Tullius Cicero</figcaption>
-		</figure>
-	</div></section>
-	<section class="slide"><div>
-		<h2>Code Samples</h2>
-		<pre>
-			<code>&lt;!DOCTYPE html&gt;</code>
-			<code>&lt;html lang="en"&gt;</code>
-			<code><mark>&lt;head&gt;</mark> <mark class="comment">&lt;!--Comment--&gt;</mark></code>
-			<code>    &lt;title&gt;Shower&lt;/title&gt;</code>
-			<code>    &lt;meta charset="<mark class="important">UTF-8</mark>"&gt;</code>
-			<code>    &lt;link rel="stylesheet" href="screen.css"&gt;</code>
-			<code><mark>&lt;/head&gt;</mark></code>
-		</pre>
-	</div></section>
-	<section class="slide"><div>
-		<h2>Even Tables</h2>
-		<table>
-		<tr>
-			<th scope="col">Locavore</th>
-			<th>Umami</th>
-			<th>Helvetica</th>
-			<th>Vegan</th>
-		</tr>
-		<tr>
-			<th scope="row">Fingerstache</th>
-			<td>Kale</td>
-			<td>Chips</td>
-			<td>Keytar</td>
-		</tr>
-		<tr>
-			<th scope="row">Sriracha</th>
-			<td>Gluten-free</td>
-			<td>Ennui</td>
-			<td>Keffiyeh</td>
-		</tr>
-		<tr>
-			<th scope="row">Thundercats</th>
-			<td>Jean</td>
-			<td>Shorts</td>
-			<td>Biodiesel</td>
-		</tr>
-		<tr>
-			<th scope="row">Terry</th>
-			<td>Richardson</td>
-			<td>Swag</td>
-			<td>Blog</td>
-		</tr>
-		</table>
-		<p>It’s good to have information organized.</p>
-	</div></section>
-	<section class="slide cover" id="Picture"><div>
-		<h2>Pictures</h2>
-		<img src="pictures/picture.jpg" alt="">
-		<style>
-			#Picture h2 {
-				color:#FFF;
-				}
-		</style>
-	</div></section>
-	<section class="slide shout"><div>
-		<h2>You can even shout this way</h2>
-	</div></section>
-	<section class="slide"><div>
-		<h2>Inner Navigation</h2>
-		<ol>
-			<li>Lets you reveal list items one by one</li>
-			<li class="next">To keep some key points</li>
-			<li class="next">In secret from audience</li>
-			<li class="next">But it will work only once</li>
-			<li class="next">Nobody wants to see the same joke twice</li>
-		</ol>
-	</div></section>
-	<section class="slide shout" id="SeeMore"><div>
-		<h2><img src="pictures/logo.svg" alt=""> <a href="https://github.com/shower/shower">See more on GitHub</a></h2>
-		<style>
-			#Picture h2 {
-				color:#FFF;
-				}
-			#SeeMore h2 {
-				font-size:100px
-				}
-			#SeeMore img {
-				width:0.72em;
-				height:0.72em;
-				}
-		</style>
-	</div></section>
-	<p class="badge"><a href="https://github.com/shower/shower">Fork me on Github</a></p>
+	<section class="slide cover" id="Cover">
+		<div>
+			<h2>
+				Готовь
+				<span class="subl-orange">Sublime</span>
+				к полету в космос
+			</h2>
+			<p>
+				сделано с занудством
+				<a target="_blank" href="http://vk.com/id3653">Андреем Алексеевым</a>
+			</p>
+			<img src="pictures/space.jpg" alt=""></div>
+	</section>
+	<section class="slide">
+		<div>
+			<a href="http://www.sublimetext.com/3" target="_blank" class="logo"><img src="pictures/logo.png" alt="Sublime Text" class="content-img"> Sublime Text 3</a>
+			<p class="text-center">
+				Текстовый редактор с широким диапазоном настроек, тем и плагинов, позволяющий увеличить скорость веб-разработки в разы.
+			</p>
+		</div>
+	</section>
+	<section class="slide">
+		<div>
+			<h2>В этой презентации</h2>
+			<ol>
+				<li><a href="#main-features" class="transparent-color">Обзор основных возможностей ST</a></li>
+				<li><a href="#plugins" class="transparent-color">Интересные плагины для верстальщиков</a></li>
+				<li><a href="#magic" class="transparent-color">Немного магии</a></li>
+				<li><a href="#read-more" class="transparent-color">Дополнительные материалы</a></li>
+			</ol>
+		</div>
+	</section>
+	<section class="slide cover" id="main-features">
+		<div>
+			<h2 class="cover-h2">Основные возможности</h2>
+			<img src="pictures/cover_falcon.jpg" height="640" width="1024" alt="">
+		</div>
+	</section>
+	<section class="slide custom">
+		<div>
+			<h2>Сайдбар и дробление на секции</h2>
+			<div class="slide-content">
+				<p>В боковой панели хранятся открытые файлы и папки. <br> Каждый файл открывается в новом табе, которые можно <br> распределить в несколько рядов или колонок.</p>
+			</div>
+			<img src="pictures/layout.gif" height="360" width="576" alt="" class="content-img">
+		</div>
+	</section>
+	<section class="slide custom">
+		<div>
+			<h2>Миникарта кода</h2>
+			<div class="slide-content">
+				<p>Показывает весь код в панельке справа. Кстати, можно вставлять <a href="http://ascii-arts.org.ua/gen.html" target="_blank">ASCII графику</a> в комментарии,<br> чтобы видеть эти области на миникарте.</p>
+			</div>
+			<img src="pictures/codemap.gif" height="360" width="576" alt="" class="content-img">
+		</div>
+	</section>
+	<section class="slide custom">
+		<div>
+			<h2>Темы оформления</h2>
+			<div class="slide-content">
+				<p>Очень, очень, очень много тем. <br> Выбор за вами!</p>
+			</div>
+			<img src="pictures/themes.gif" height="360" width="576" alt="" class="content-img">
+		</div>
+	</section>
+	<section class="slide custom">
+		<div>
+			<h2>Множественные курсоры</h2>
+			<div class="slide-content">
+				<p>ST позволяет редактировать код одновременно в нескольких местах. Создать курсоры можно как из выделенной области, так и по выбору одинаковых фрагментов кода.</p>
+			</div>
+			<img src="pictures/multiple-cursors.gif" height="360" width="576" alt="" class="content-img">
+		</div>
+	</section>
+	<section class="slide custom">
+		<div>
+			<h2>Поиск</h2>
+			<div class="slide-content">
+				<p>Целая куча функций поиска: обычный поиск по файлу, поиск с заменой (одного или всех значений), поиск по файлам и папкам, поиск с регулярными выражениями и многое другое</p>
+			</div>
+			<img src="pictures/search.gif" height="360" width="576" alt="" class="content-img">
+		</div>
+	</section>
+	<section class="slide custom">
+		<div>
+			<h2>Командные панели</h2>
+			<div class="slide-content">
+				<p>Быстрый доступ ко всем функциям и файлам. <br>Не нужно держать в голове клавиатурное сокращение функции или адрес файла, просто откройте панель и начните вводить название</p>
+			</div>
+			<img src="pictures/comand-panels.gif" height="360" width="576" alt="" class="content-img">
+		</div>
+	</section>
+	<section class="slide custom">
+		<div>
+			<h2>Нечёткий поиск</h2>
+			<div class="slide-content">
+				<p>Вы вводите лишь комбинацию символов —<br> нечеткий поиск выдаcт все возможные совпадения. Супер! <br> P.S.: смотрите, как полезен символ <strong>@</strong> для CSS.</p>
+			</div>
+			<img src="pictures/fuzzy-search.gif" height="360" width="576" alt="" class="content-img">
+		</div>
+	</section>
+	<section class="slide custom">
+		<div>
+			<h2>Сниппеты и клавиатурные сокращения</h2>
+			<div class="slide-content">
+				<p>Cниппеты, плагины и шорткаты в разы ускоряют разработку. И всё это добро можно настроить под себя. <br>Вот так я верстаю менюшки:</p>
+			</div>
+			<img src="pictures/snippets.gif" height="360" width="576" alt="" class="content-img">
+		</div>
+	</section>
+	<section class="slide custom">
+		<div>
+			<h2>Package Control</h2>
+			<div class="slide-content">
+				<p>С <a href="https://sublime.wbond.net/" target="_blank" class="outer-link">Package Control</a> установка плагинов займет примерно минуту. Вызовите командную панель, выберите Install Package, в загрузившемся списке плагинов найдите нужный и... готово!</p>
+			</div>
+			<img src="pictures/package-control.gif" height="360" width="576" alt="" class="content-img">
+		</div>
+	</section>
+	<section class="slide cover" id="plugins">
+		<div>
+			<h2 class="cover-h2">Плагины</h2>
+			<img src="pictures/plugins.jpg" height="640" width="1024" alt="">
+		</div>
+	</section>
+	<section class="slide custom">
+		<div>
+			<h2><a href="http://emmet.io/" target="_blank" class="header-link">Emmet</a></h2>
+			<div class="slide-content">
+				<p>Необходимая вещь для верстальщика. Emmet дает возможность писать HTML и CSS сокращениями, используя нечеткий поиск на полную катушку, а также добавляет полезные шорткаты </p>
+			</div>
+			<a href="http://emmet.io/" target="_blank" class="img-wrap"><img src="pictures/emmet.png" height="360" width="576" alt="Emmet" class="content-img"></a>
+		</div>
+	</section>
+	<section class="slide custom">
+		<div>
+			<h2><a href="https://github.com/titoBouzout/SideBarEnhancements" target="_blank" class="header-link">SideBarEnhancements</a></h2>
+			<div class="slide-content">
+				<p>Перемещайте, копируйте, переименовывайте файлы и папки прямо из ST. На любимые функции, как обычно, можно установить шорткат. Кроме того, есть полезности вроде Data URI</p>
+			</div>
+			<a href="https://github.com/titoBouzout/SideBarEnhancements" target="_blank" class="img-wrap"><img src="pictures/sidebarenh.png" height="360" width="576" alt="SideBarEnhancements" class="content-img"></a>
+		</div>
+	</section>
+	<section class="slide custom">
+		<div>
+			<h2><a href="https://github.com/skuroda/Sublime-AdvancedNewFile" target="_blank" class="header-link">AdvancedNewFile</a></h2>
+			<div class="slide-content">
+				<p>Быстрое создание нового файла</p>
+			</div>
+			<a href="https://github.com/skuroda/Sublime-AdvancedNewFile" target="_blank" class="img-wrap"><img src="pictures/anf.gif" height="270" width="576" alt="AdvancedNewFile" class="content-img"></a>
+		</div>
+	</section>
+	<section class="slide custom">
+		<div>
+			<h2><a href="https://sublime.wbond.net/packages/BracketHighlighter" target="_blank" class="header-link">Bracket​Highlighter</a></h2>
+			<div class="slide-content">
+				<p>Удобная подсветка открывающих и закрывающих скобок</p>
+			</div>
+			<a href="https://sublime.wbond.net/packages/BracketHighlighter" target="_blank" class="img-wrap"><img src="pictures/brackethighlighter.png" height="270" width="576" alt="Bracket​Highlighter" class="content-img"></a>
+		</div>
+	</section>
+	<section class="slide custom">
+		<div>
+			<h2><a href="https://github.com/travmik/ZenTabs" target="_blank" class="header-link">ZenTabs</a></h2>
+			<div class="slide-content">
+				<p>Этот плагин умеет подсвечивать текущую вкладку и ограничивать количество открытых вкладок заданным числом. При открытии новых вкладок закрываются самые старые</p>
+			</div>
+			<a href="https://github.com/travmik/ZenTabs" target="_blank" class="img-wrap"><img src="pictures/zentabs.gif" height="360" width="576" alt="ZenTabs" class="content-img"></a>
+		</div>
+	</section>
+	<section class="slide custom">
+		<div>
+			<h2><a href="http://www.sublimelinter.com/en/latest/index.html" target="_blank" class="header-link">SublimeLinter</a></h2>
+			<div class="slide-content">
+				<p>Линтер читает код и подсвечивает ошибки и предупреждения, при наведении на которые объясняет ошибку в нижней строчке. Для каждого языка необходимо установить свой линтер.</p>
+			</div>
+			<a href="http://www.sublimelinter.com/en/latest/index.html" target="_blank" class="img-wrap"><img src="pictures/linter.png" height="360" width="576" alt="Sublime Linter" class="content-img"></a>
+		</div>
+	</section>
+	<section class="slide custom">
+		<div>
+			<h2><a href="https://sublime.wbond.net/packages/Gutter%20Color" target="_blank" class="header-link">Gutter Color</a></h2>
+			<div class="slide-content">
+				<p>Ну вы сами все видите. <br>P.S.: есть еще очень похожий <a href="https://sublime.wbond.net/packages/Color%20Highlighter" target="_blank" class="outer-link">Color Highlighter</a></p>
+			</div>
+			<a href="https://sublime.wbond.net/packages/Gutter%20Color" target="_blank" class="img-wrap"><img src="pictures/guttercolor.png" height="360" width="576" alt="Gutter Color" class="content-img"></a>
+		</div>
+	</section>
+	<section class="slide custom">
+		<div>
+			<h2><a href="https://github.com/aziz/PlainTasks" target="_blank" class="header-link">Plain Tasks</a></h2>
+			<div class="slide-content">
+				<p>Планировщик для ST. Удобно вести список задач в одной папке с проектом. Можно отмечать выполненные задания, при этом автоматически фиксируется время окончания.</p>
+			</div>
+			<a href="https://github.com/aziz/PlainTasks" target="_blank" class="img-wrap"><img src="pictures/plain-tasks.png" height="360" width="576" alt="Plain Tasks" class="content-img"></a>
+		</div>
+	</section>
+	<section class="slide custom">
+		<div>
+			<h2><a href="http://livereload.com/" target="_blank" class="header-link">Live Reload</a></h2>
+			<div class="slide-content">
+				<p>В любом обзоре обязательно должны рассказать про live-режим — автообновление браузера без нажатия клавиш.<br> <a href="https://sublime.wbond.net/packages/LiveReload" target="_blank" class="outer-link">Это настраивается и для ST</a>, однако я бы советовал не привязываться к редактору, а установить приложение <a href="http://livereload.com/" target="_blank" class="outer-link">отдельно</a></p>
+			</div>
+			<a href="http://livereload.com/" target="_blank" class="img-wrap"><img src="pictures/LiveReload_350.png" height="350" width="350" alt="Live Reload" class="content-img"></a>
+		</div>
+	</section>
+	<section class="slide custom" id="emmet-livestyle">
+		<div>
+			<h2><a href="http://livestyle.emmet.io/" target="_blank" class="header-link">Emmet Livestyle</a></h2>
+			<div class="slide-content">
+				<p>Любопытная вариация LiveReload, если вы пишите код на CSS: Livestyle позволяет править стили прямо в инспекторе браузера, изменения сразу записываются в CSS файл.</p>
+			</div>
+			<iframe width="480" height="360" src="//www.youtube.com/embed/iQLhGbkupS4" frameborder="0" allowfullscreen></iframe>
+		</div>
+	</section>
+	<section class="slide custom">
+		<div>
+			<h2><a href="http://wbond.net/sublime_packages/sftp" target="_blank" class="header-link">SFTP</a></h2>
+			<div class="slide-content">
+				<p>2 режима работы с FTP: 1) подключение к удаленному серверу и работа на нем; 2) настройка FTP-соединения для каждого проекта, позволяющая быстро и просто синхронизировать файлы</p>
+			</div>
+			<a href="http://wbond.net/sublime_packages/sftp" target="_blank" class="img-wrap"><img src="pictures/sftp.gif" height="360" width="576" alt="SFTP" class="content-img"></a>
+		</div>
+	</section>
+	<section class="slide custom">
+		<div>
+			<h2><a href="https://github.com/csscomb/sublime-csscomb" target="_blank" class="header-link">CSScomb</a></h2>
+			<div class="slide-content">
+				<p>"Причесывает" CSS, расставляя свойства в заданном порядке. Потребует небольшой настройки: установки <a href="http://nodejs.org/" target="_blank" class="outer-link">Node.js</a> и <a href="http://csscomb.ru/config" target="_blank" class="outer-link">конфигурации</a> плагина в зависимости от своих предпочтений</p>
+			</div>
+			<a href="https://github.com/csscomb/sublime-csscomb" target="_blank" class="img-wrap"><img src="pictures/csscomb.gif" height="360" width="576" alt="CSScomb" class="content-img"></a>
+		</div>
+	</section>
+	<section class="slide custom">
+		<div>
+			<h2><a href="https://github.com/jisaacks/GitGutter" target="_blank" class="header-link">GitGutter</a></h2>
+			<div class="slide-content">
+				<p>Полезный инструмент для пользователей Git: вживую показывает изменения, произошедшие в файле с последнего коммита</p>
+			</div>
+			<a href="https://github.com/jisaacks/GitGutter" target="_blank" class="img-wrap"><img src="pictures/gitgutter.gif" height="360" width="576" alt="GitGutter" class="content-img"></a>
+		</div>
+	</section>
+	<section class="slide custom">
+		<div>
+			<h2><a href="https://github.com/hachesilva/Comment-Snippets" target="_blank" class="header-link">Comment-Snippets</a></h2>
+			<div class="slide-content">
+				<p>Лаконичный набор сниппетов для красивых комментариев.</p>
+			</div>
+			<a href="https://github.com/hachesilva/Comment-Snippets" target="_blank" class="img-wrap"><img src="pictures/comments.png" height="360" width="576" alt="Comment-Snippets" class="content-img"></a>
+		</div>
+	</section>
+	<section class="slide custom">
+		<div>
+			<h2><a href="https://github.com/BoundInCode/AutoFileName" target="_blank" class="header-link">AutoFileName</a></h2>
+			<div class="slide-content">
+				<p>Простой и удобный плагин, позволяющий забыть о написании путей к тому или иному файлу</p>
+			</div>
+			<a href="https://github.com/BoundInCode/AutoFileName" target="_blank" class="img-wrap"><img src="pictures/autofilename.gif" height="360" width="576" alt="AutoFileName" class="content-img"></a>
+		</div>
+	</section>
+	<section class="slide cover" id="magic">
+		<div>
+			<h2 class="cover-h2">Поговорим о силе</h2>
+			<img src="pictures/cover_yoda.jpg" height="640" width="1024" alt="">
+		</div>
+	</section>
+	<section class="slide">
+		<div>
+			<h2>Поговорим о силе</h2>
+			<p>ST – это гибкость и скорость: для всех плагинов и функций есть настройки и клавиатурные сокращения. <br><em>Часто пишете один и тот же код?</em><br> Создайте сниппет и вызывайте код лишь несколькими символами. <br> <em>Работаете над несколькими проектами?</em><br> Совсем не обязательно каждый раз открывать папку проекта и целый ворох необходимых файлов — воспользуйтесь системой проектов. <br><em>Нужен дополнительный функционал?</em><br> Откройте Package Control, скорее всего его уже кто-то написал :)</p>
+		</div>
+	</section>
+	<section class="slide">
+		<div>
+			<h2>Настройки</h2>
+			<p>В ST настройки есть как у самого редактора, так и у всех подключаемых плагинов. Найти их можно по пути <br><strong>Preferences</strong> > <strong>Settings</strong> ... <br>или<br> <strong>Preferences</strong> > <strong>Package Settings</strong> > ...</p>
+			<p>Обратите внимание, что все настройки разбиты на категории <strong>User</strong> и <strong>Default</strong>.</p>
+		</div>
+	</section>
+	<section class="slide custom">
+		<div>
+			<h2>Настройки</h2>
+			<div class="slide-content">
+				<p>Все изменения мы вносим в <strong>Settings - User</strong>. Если вносить их в <strong>Default</strong>, они будут перезаписаны при ближайшем обновлении. В дефолтные настройки нужно заглядывать лишь для справки.</p>
+			</div>
+			<img src="pictures/settings.gif" height="360" width="576" alt="Settings" class="content-img">
+		</div>
+	</section>
+	<section class="slide" id="settings">
+		<div>
+			<h2>Настройки</h2>
+			<p>Мои любимые настройки для ST. Полный список <a href="http://sublimetext.ru/documentation/%D0%BF%D0%B0%D1%80%D0%B0%D0%BC%D0%B5%D1%82%D1%80%D1%8B" class="outer-link">тут</a></p>
+			<pre>
+				<code><strong>"bold_folder_labels": true,</strong> // подсвечивать надписи папок в сайдбаре</code>
+				<code><strong>"draw_white_space": "all",</strong> // подсвечивать пробелы и табы в коде</code>
+				<code><strong>"highlight_modified_tabs": true,</strong> // подсвечивать табы, в которые внесены изменения</code>
+				<code><strong>"save_on_focus_lost": true,</strong> // забудьте о комбинации Cmd+S/Ctrl+S. Код сохраняется всякий раз при переключении окна или смене таба</code>
+				<code><strong>"show_line_endings": true,</strong> // показывать переносы строк</code>
+				<code><strong>"tab_size": 2,</strong> // размер таба равен двум символам</code>
+				<code><strong>"translate_tabs_to_spaces": true,</strong> // табы - не табы, а пробелы</code>
+				<code><strong>"trim_trailing_white_space_on_save": true</strong> // "подчищать" код при сохранении, обрубая лишние табы и пробелы</code>
+			</pre>
+		</div>
+	</section>
+	<section class="slide">
+		<div>
+			<h2>Клавиатурные шорткаты</h2>
+			<p>Шорткаты - это одна из мощнейших функций ST - практически любое действие можно повесить на комбинацию клавиш. Рассортированы они по папкам аналогично тому, как рассортированы настройки <strong>Preferences</strong> &gt; <strong>Key Bindings</strong>.</p>
+		</div>
+	</section>
+	<section class="slide">
+		<div>
+			<h2>Клавиатурные шорткаты</h2>
+			<p>Чтобы ввести сокращение, в <strong>Key Bindings - User</strong> следует добавить новую строку, например</p>
+			<pre><code>{ "keys": ["ctrl+shift+o"], "command": "side_bar_open_in_browser" },</code></pre>
+			<p><strong>command</strong> - это команда, которую ST выполняет при нажатии. <br>Список команд плагинов не всегда лежит в разделе <strong>Preferences</strong>. <br>Если возникают трудности, посмотрите репозиторий плагина на github, искомые команды прячутся в файлах с расширением <strong>.sublime-keymap</strong> или <strong>.sublime-commands</strong> </p>
+		</div>
+	</section>
+	<section class="slide">
+		<div>
+			<h2>Сниппеты</h2>
+			<p>Небольшие куски кода, которые можно вставлять по определенному сочетанию клавиш. Так, в этом примере фраза <strong>nav++</strong> по нажатию на <strong>Tab</strong> превратится в emmet-цепочку для разметки навигации. <br> Создать свой сниппет <a href="https://code.tutsplus.com/courses/perfect-workflow-in-sublime-text-2/lessons/your-first-snippet" target="_blank" class="outer-link">невероятно просто</a></p>
+			<img src="pictures/snippets.jpg" height="235" width="576" alt="" class="img-center">
+		</div>
+	</section>
+	<section class="slide custom">
+		<div>
+			<h2><a href="https://code.tutsplus.com/courses/perfect-workflow-in-sublime-text-2/lessons/all-about-projects" target="_blank" class="header-link">Проекты</a></h2>
+			<div class="slide-content">
+				<p>Не надо вспоминать, как называется папка вашего проекта и над чем вы работали в прошлый раз - это дело ST. Создавайте и переключайтесь между проектами, храните специфичные настройки в отдельном файле.</p>
+			</div>
+			<img src="pictures/projects.gif" height="360" width="576" alt="AutoFileName" class="content-img">
+		</div>
+	</section>
+	<section class="slide cover" id="read-more">
+		<div>
+			<h2 class="cover-h2">Больше материалов</h2>
+			<img src="pictures/cover_else.jpg" height="640" width="1024" alt="">
+		</div>
+	</section>
+
+	<section class="slide">
+		<div>
+			<h2>Статьи</h2>
+			<p><a href="https://code.tutsplus.com/courses/perfect-workflow-in-sublime-text-2" target="_blank" class="outer-link">Perfect Workflow in Sublime Text 2</a><br>Превосходный двухчасовой скринкаст, до сих пор не потерявший актуальность. Бесплатный после регистрации.</p>
+			<p><a href="http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/" target="_blank" class="outer-link">Sublime Text Unofficial Documentation</a><br>Тот неловкий момент, когда неофициальная документация лучше официальной.</p>
+			<p><a href="http://blog.generalassemb.ly/sublime-text-3-tips-tricks-shortcuts/" target="_blank" class="outer-link">Getting Started With Sublime Text 3: 25 Tips, Tricks, And Shortcuts</a><br>Лучшая из статей по ST, что я когда-либо видел</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div>
+			<h2>Статьи</h2>
+			<p><a href="http://sublimetext.ru/documentation/%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F" target="_blank" class="outer-link">Русская документация Sublime Text</a><br>Удобные справки по горячим клавишам и настройкам редактора, а также лаконичное описание главных функций.</p>
+			<p><a href="http://habrahabr.ru/post/235901/" target="_blank" class="outer-link">Лучшие плагины для Sublime Text</a><br>Полезная подборочка с Хабра</p>
+			<p><a href="http://habrahabr.ru/post/235901/#comment_8144839" target="_blank" class="outer-link">Комментарий к прошлой статье</a><br>Про синхронизацию ST между устройствами.</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div>
+			<h2>Плагины, которые стоит поглядеть</h2>
+			<p><a href="http://wbond.net/sublime_packages/alignment" target="_blank" class="outer-link">Sublime Alignment</a> — выравнивание нескольких строчек по определенной позиции.</p>
+			<p><a href="https://github.com/colinta/SublimeFileDiffs" target="_blank" class="outer-link">SublimeFileDiffs</a> — сравнивает два файла или их части и показывает различия.</p>
+			<p><a href="https://sublime.wbond.net/packages/HTML-CSS-JS%20Prettify" target="_blank" class="outer-link">HTML-CSS-JS Prettify</a> — форматирует ваш код.</p>
+			<p><a href="https://github.com/alienhard/SublimeAllAutocomplete" target="_blank" class="outer-link">SublimeAllAutocomplete</a> — автокомплит работает не только в рамках одного документа, но в рамках текущих открытых файлов.</p>
+		</div>
+	</section>
+	<section class="slide">
+		<div>
+			<h2>Плагины, которые стоит поглядеть</h2>
+			<p><a href="https://github.com/kemayo/sublime-text-2-clipboard-history" target="_blank" class="outer-link">Clipboard History</a> — поможет вспомнить, что именно вы вставляли несколько итераций назад.</p>
+			<p><a href="https://github.com/titoBouzout/BufferScroll" target="_blank" class="outer-link">BufferScroll</a> — запоминает позицию курсора при переключении окон.</p>
+		</div>
+	</section>
+	<section class="slide">
+		<div>
+			<h2>На этом все!</h2>
+			<p>Занудствовал для вас Андрей Алексеев. <br>Пожелания, предложения: <a href="http://vk.com/id3653" target="_blank" class="outer-link">vk</a> / <a href="mailto:alexeev.andrey.a@gmail.com" target="_blank" class="outer-link">e-mail</a></p>
+			<p>Поделиться ссылкой
+				<a href="bit.ly/sublimepresentation" target="_blank" class="outer-link">bit.ly/sublimepresentation</a></p>
+		</div>
+	</section>
+
+	<!--
+	<p class="badge">
+		<a href="https://github.com/shower/shower">Fork me on Github</a>
+	</p>
+	-->
 	<!--
 		To hide progress bar from entire presentation
 		just remove “progress” element.
 		-->
-	<div class="progress"><div></div></div>
+	<div class="progress">
+		<div></div>
+	</div>
 	<script src="node_modules/shower-core/shower.min.js"></script>
-	<!-- Copyright © 2014 Yours Truly, Famous Inc. -->
-	<!-- Photos by John Carey, fiftyfootshadows.net -->
+	<!-- Copyright © 2014 Andrey Alexeev. -->
 </body>
 </html>
