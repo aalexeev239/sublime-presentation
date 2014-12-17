@@ -3,6 +3,20 @@ module.exports = function(grunt) {
 	require('load-grunt-tasks')(grunt);
 
 	grunt.initConfig({
+		watch: {
+			stylus: {
+	      files: ['styl/**/*.styl'],
+	      tasks: ['notify:stylus','stylus', 'cssmin'],
+	      options: {
+	          spawn: false,
+	          livereload: true
+	      }
+	    },
+      livereload: {
+        options: { livereload: true },
+        files: ['**/*.html']
+      }
+    },
 		bump: {
 			options: {
 				files: ['package.json', 'bower.json'],
@@ -22,7 +36,9 @@ module.exports = function(grunt) {
 						'!License.md',
 						'!Readme.md',
 						'!bower.json',
-						'!package.json'
+						'!package.json',
+						'assets/**',
+						'screencasts/**'
 					],
 					dest: 'temp/pres/'
 				},{
@@ -95,6 +111,43 @@ module.exports = function(grunt) {
 				}]
 			}
 		},
+		stylus: {
+      compile: {
+        options: {
+          paths: ['styl'],
+          urlfunc: 'url64',
+          'include css': true,
+          compress: false
+        },
+        files: {
+          'css/style.css': ['styl/style.styl']
+        }
+      }
+    },
+		cssmin: {
+      dist: {
+        src: 'css/style.css',
+        dest: 'css/style.min.css'
+      }
+    },
+    notify: {
+      stylus: {
+        options: {
+          title: 'Готово!',  // optional
+          message: 'STYLUS скомпилирован', //required
+        }
+      }
+    },
+    imagemin: {
+    	all: {
+	    	files: [{
+	        expand: true,                  // Enable dynamic expansion
+	        cwd: 'pictures/',                   // Src matches are relative to this path
+	        src: ['**/*.{png,jpg,gif}']   // Actual patterns to match
+	        // dest: 'pictures/'                  // Destination path prefix
+	      }]
+      }
+    },
 		clean: ['temp']
 	});
 
@@ -111,5 +164,7 @@ module.exports = function(grunt) {
 		'compress',
 		'clean'
 	]);
+
+	grunt.registerTask('w', ['watch']);
 
 };
