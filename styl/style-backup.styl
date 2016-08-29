@@ -1,0 +1,185 @@
+/*=================================
+=            VARIABLES            =
+=================================*/
+
+
+
+c_orange = #ff8100
+c_gray = #4c4c4c
+c_dark_gray = #262626
+c_base = #333
+
+/*-----  End of VARIABLES  ------*/
+
+
+/*===============================
+=            OVERLAY            =
+===============================*/
+
+.full .progress div
+  border-bottom-color c_orange
+
+
+/*-----  End of OVERLAY  ------*/
+
+
+
+/*============================
+=            BASE            =
+============================*/
+
+.slide
+  color c_base
+
+  > div
+    height 544px
+    padding-top 90px
+
+  &.custom
+    text-align center
+    > div
+      padding 50px 100px 0
+    h2
+      font-size 40px
+      margin 0 0 20px
+
+    p
+      font-size 24px
+      margin-bottom 20px
+
+  &.cover
+    text-align center
+
+  a
+    color c_orange
+
+    &.header-link
+      color inherit
+      display inline-block
+      padding-right 38px
+      background url64('../assets/header-link.svg') right center no-repeat
+      background-size 32px 32px
+
+      &:hover
+        text-decoration underline
+
+    &.transparent-color
+      color inherit
+      background-image none
+
+  p
+    line-height 1.4
+
+  .slide-content
+    display block
+    min-height 110px
+    margin 0 0 15px
+
+    p
+      margin 0
+
+  .content-img
+    display block
+    margin 0 auto
+    max-width 800px
+    height auto
+
+  &:after
+    color c_orange
+    padding-top 12px
+
+
+.subl-orange
+  color c_orange
+
+.logo
+  display block
+  text-align center
+  text-decoration underline
+  background-image none
+  font-size 44px
+  text-transform uppercase
+  font-weight 700
+
+  .content-img
+    margin-bottom 25px
+
+.text-center
+  text-align center
+
+.cover-h2
+  display inline-block
+  margin 0
+  padding 20px 30px
+  text-align center
+  font-size 50px
+  color c_orange !important
+  background-color rgba(c_dark_gray, .8)
+  text-transform  uppercase
+  font-weight  400
+
+.outer-link
+  display inline-block
+  padding-right 24px
+  white-space nowrap
+  position relative
+
+  &:before
+    content ''
+    position absolute
+    top 7px
+    right 0
+    width 20px
+    height 20px
+    background-image url64('../assets/link.svg')
+    background-repeat no-repeat
+    background-size 20px 20px
+
+
+.img-wrap
+  display block
+  margin 0 auto
+  background-image none
+/*-----  End of BASE  ------*/
+
+
+
+#Cover
+  div
+    padding-top 25px
+
+  h2
+    margin 0 0 0
+    color #FFF
+    text-align center
+    font-size 50px
+    text-transform  uppercase
+    font-weight  400
+  p
+    margin 5px 0 0
+    text-align center
+    color #FFF
+    font-style italic
+    font-size 20px
+    a
+      color #FFF
+
+
+#main-features
+  text-align center
+
+
+#plugins
+  h2
+    margin 400px auto 0
+
+#emmet-livestyle iframe
+  margin 0 auto
+
+
+
+
+
+
+
+
