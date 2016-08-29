@@ -57,11 +57,14 @@ c_base = #333
       color inherit
       display inline-block
       padding-right 38px
+      padding-bottom 2px
       background url64('../assets/header-link.svg') right center no-repeat
       background-size 32px 32px
+      border-bottom 3px solid transparent
 
       &:hover
-        text-decoration underline
+        text-decoration none
+        border-bottom-color #666
 
     &.transparent-color
       color inherit
@@ -189,6 +192,17 @@ c_base = #333
 #magic h2
   position relative
   bottom 40px
+
+#subl-features em
+  display block
+  margin 20px 0 0
+
+#settings
+  code
+    color #999
+
+    strong
+      color #000
 
 // .main-nav
 //   &__list
